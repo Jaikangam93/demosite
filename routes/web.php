@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Route for Dashboard module 
+Route::get('systemadmin/dashboard', 'DashboardController@showsystemadmindashboard')->name('showsystemadmindashboard');
+Route::get('employee/dashboard', 'DashboardController@showemployeedashboard')->name('showemployeedashboard');
+Route::get('student/dashboard', 'DashboardController@showstudentdashboard')->name('showstudentdashboard');
+Route::get('parent/dashboard', 'DashboardController@showparentdashboard')->name('showparentdashboard');
+

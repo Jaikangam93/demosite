@@ -25,7 +25,36 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    //protected $redirectTo = '/home';
+
+
+     public function redirectTo()
+    {
+
+        $role = \Auth::user()->role;
+        
+        if ($role == 'SYA') {         
+
+            return('systemadmin/dashboard');
+
+        } 
+        elseif ($role == 'EMP')
+         {
+            //$this->redirectTo = 'managementdashboard'; //check on route Web
+            return('employee/dashboard');
+        }
+
+        elseif ($role == 'STD')
+         {
+            //$this->redirectTo = 'customercareexecutive';
+            return('student/dashboard');
+        }
+        elseif ($role == 'PRT')
+         {
+            //$this->redirectTo = 'customercareexecutive';
+            return('parent/dashboard');
+        }
+    }
 
     /**
      * Create a new controller instance.

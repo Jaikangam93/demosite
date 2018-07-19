@@ -27,10 +27,10 @@ class UsersTableSeeder extends Seeder
          ],
          [
             'role' => 'EMP',  
-            'name' => 'Samual Johnson',
+            'name' => 'Philip Malangmei',
             'designation' => 'Teacher',
             'mobilenumber'=> '9402784568',
-            'email'=> 'samual@gmail.com',
+            'email'=> 'philip@gmail.com',
             'password' => bcrypt('password'),
             'forgotpassword'=>0,
             'isactive'=>1,
