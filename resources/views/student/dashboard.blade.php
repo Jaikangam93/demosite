@@ -4,9 +4,7 @@
 
 @include('student.sidebar')
 
-
-
-			<!-- Main content -->
+		<!-- Main content -->
 			<div class="content-wrapper">
 
 				<!-- Page header -->
