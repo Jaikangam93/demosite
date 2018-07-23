@@ -26,11 +26,23 @@ class UsersTableSeeder extends Seeder
 
          ],
          [
-            'role' => 'EMP',  
+            'role' => 'ADM',  
             'name' => 'Philip Malangmei',
-            'designation' => 'Teacher',
-            'mobilenumber'=> '9402784568',
+            'designation' => 'Administration  ',
+            'mobilenumber'=> '9402482757',
             'email'=> 'philip@gmail.com',
+            'password' => bcrypt('password'),
+            'forgotpassword'=>0,
+            'isactive'=>1,
+           
+
+         ],
+         [
+            'role' => 'EMP',  
+            'name' => 'Namthuibi Newmai',
+            'designation' => 'Teacher',
+            'mobilenumber'=> '7005780958',
+            'email'=> 'namthuibi@gmail.com',
             'password' => bcrypt('password'),
             'forgotpassword'=>0,
             'isactive'=>1,
@@ -61,6 +73,7 @@ class UsersTableSeeder extends Seeder
            
 
          ]
+
 
          ]);
 

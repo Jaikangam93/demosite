@@ -15,6 +15,11 @@ class DashboardController extends Controller
     {
         return view('systemadmin.dashboard');
     }
+    public function showadministrationdashboard()
+    {
+        return view('administration.dashboard');
+    }
+
       public function showemployeedashboard()
     {
         return view('employee.dashboard');
