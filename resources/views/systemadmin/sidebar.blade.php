@@ -3,18 +3,24 @@
 				<div class="sidebar-content">
 
 					<!-- User menu -->
-					<div class="sidebar-user-material">
+					<div class="sidebar-user">
 						<div class="category-content">
-							<div class="sidebar-user-material-content">
-								<a href="#"><img src="{{ asset('assets/images/placeholder.jpg') }}" class="img-circle img-responsive" alt=""></a>
-								<h6>Victoria Baker</h6>
-								<span class="text-size-small">Santa Ana, CA</span>
+							<div class="media">
+								<a href="#" class="media-left"><img src="{{ asset('assets/images/placeholder.jpg') }}" class="img-circle img-sm" alt=""></a>
+								<div class="media-body">
+									<span class="media-heading text-semibold">@if (Auth::check())
+										<span>{{ Auth::user()->name }}</span>
+									@endif</span>
+									
+									<div class="text-size-mini text-muted">
+										<i class="icon-pin text-size-small"></i> &nbsp;@if (Auth::check())
+										<span>{{ Auth::user()->designation }}</span>
+										@endif
+									</div>
+								</div>
+
 							</div>
-														
-							
 						</div>
-						
-						
 					</div>
 					<!-- /user menu -->
 
@@ -26,13 +32,7 @@
 
 								<!-- Main -->
 								<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
-								<li class="active"><a href="{{ route('showsystemadmindashboard') }}"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
-								<li>
-									<a href="{{ route('showsystemusers') }}"><i class="icon-stack2"></i> <span> System Users</span></a>
-									
-								</li>
-								
-							<!--
+								<li class="active"><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
 								<li>
 									<a href="#"><i class="icon-stack2"></i> <span>Page layouts</span></a>
 									<ul>
@@ -111,10 +111,12 @@
 										<li><a href="starters/layout_fixed.html">Fixed layout</a></li>
 									</ul>
 								</li>
-								<li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog </span></a></li>
+								<li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.6</span></span></a></li>
 								<li><a href="../../RTL/default/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li>
+								<!-- /main -->
 
-								-->
+						
+
 							</ul>
 						</div>
 					</div>
@@ -123,4 +125,3 @@
 				</div>
 			</div>
 			<!-- /main sidebar -->
-

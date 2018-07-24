@@ -142,10 +142,15 @@ svg {
             top: 50%;
             left: 0;
             height: 1px;
-            background-color: #ddd;
+            background-color: @panel-inner-border;
             width: 100%;
             z-index: -1;
         }
+    }
+
+    // Muted line
+    &-muted > span:before {
+        background-color: #e5e5e5;
     }
 }
 
@@ -298,8 +303,7 @@ svg {
 .page-header-inverse {
     background-color: @page-header-inverse-bg;
     color: #fff;
-    margin-bottom: (@line-height-computed * 1.5);
-    .box-shadow(@shadow-depth1);
+    margin-bottom: @line-height-computed;
 
     // Change color of small element
     .page-title small {
@@ -363,8 +367,8 @@ svg {
 // White page header
 .page-header-default {
     background-color: @page-header-default-bg;
-    margin-bottom: (@line-height-computed * 1.5);
-    .box-shadow(@shadow-depth1);
+    margin-bottom: @line-height-computed;
+    .box-shadow(0 1px 0 0 @navbar-default-border);
     
     // Cover image
     &.has-cover {

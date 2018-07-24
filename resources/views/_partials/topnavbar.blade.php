@@ -1,7 +1,7 @@
-<!-- Top navbar -->
+<!-- Top main navbar -->
 	<div class="navbar navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="index.html"><img src="{{ asset('') }}assets/images/logo_light.png" alt=""></a>
+			<a class="navbar-brand" href="index.html"><img src="{{asset('assets/images/logo_light.png') }}" alt=""></a>
 
 			<ul class="nav navbar-nav visible-xs-block">
 				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
@@ -13,17 +13,20 @@
 			<ul class="nav navbar-nav">
 				<li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
 
-				
+			
 			</ul>
+
+			<p class="navbar-text"><span class="label bg-info"> Year 2018-19</span></p>
 
 			<ul class="nav navbar-nav navbar-right">
 				
+
 				<li class="dropdown dropdown-user">
 					<a class="dropdown-toggle" data-toggle="dropdown">
 						<img src="{{ asset('assets/images/placeholder.jpg') }}" alt="">
-						@if (Auth::check())
+						<span>@if (Auth::check())
                     	<span>{{ Auth::user()->name }}</span>
-           				 @endif 
+           				 @endif </span>
 						<i class="caret"></i>
 					</a>
 
@@ -42,4 +45,4 @@
 			</ul>
 		</div>
 	</div>
-	<!-- /Top navbar -->
+	<!-- /Top main navbar -->

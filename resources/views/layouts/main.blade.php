@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	@include('_partials.head')
-	
+
+	@include('_partials.head')	
 
 </head>
 
 <body>
 
-	
-
 	@include('_partials.topnavbar')
-
-
 
 	<!-- Page container -->
 	<div class="page-container">
@@ -21,7 +17,7 @@
 		<div class="page-content">
 
 
-			@yield('body')
+			@yield('mainbody')
 			
 
 		</div>
