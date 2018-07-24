@@ -38,6 +38,12 @@ class LoginController extends Controller
             return('systemadmin/dashboard');
 
         } 
+        elseif ($role == 'ADM')
+         {
+            
+            return('administration/dashboard');
+        }
+
         elseif ($role == 'EMP')
          {
             //$this->redirectTo = 'managementdashboard'; //check on route Web

@@ -2,7 +2,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+<<<<<<< HEAD
 	<title>{{ config('app.name', 'ABC School ') }}</title>
+=======
+
+	<title> ABC School @yield('title')</title>
+>>>>>>> 5fb77934e80929f365ba6699fae15c729173accc
 
 	
 
@@ -13,6 +18,7 @@
 	<link href="{{ asset('assets/css/core.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/components.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/colors.css') }}" rel="stylesheet" type="text/css">
+<<<<<<< HEAD
 	<!-- /global stylesheets by default Index  -->
 
 
@@ -20,8 +26,13 @@
 
 
 	<!-- Core JS files by default Index  -->
+=======
+	<!-- /global stylesheets -->
+	<script src="{{ asset('js/custom/jquery-3.3.1.min.js') }}"></script>
+	<!-- Core JS files -->
+>>>>>>> 5fb77934e80929f365ba6699fae15c729173accc
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/loaders/pace.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('assets/js/core/libraries/jquery.min.js') }} "></script> 
 	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/loaders/blockui.min.js') }}"></script>
 	<!-- /core JS files by default Index -->
@@ -39,4 +50,14 @@
 	<script type="text/javascript" src="{{ asset('assets/js/pages/dashboard.js') }}"></script>
 
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/ui/ripple.min.js') }}"></script>
+<<<<<<< HEAD
 	<!-- /theme JS files (By Default Index ) -->
+=======
+	
+	<!-- /theme JS files -->
+	
+	
+	<!-- Datatable Responsive  -->
+	
+	<!-- / Datatable Responsive  -->
+>>>>>>> 5fb77934e80929f365ba6699fae15c729173accc
