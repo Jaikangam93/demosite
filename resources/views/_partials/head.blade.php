@@ -11,19 +11,10 @@
 	<link href="{{ asset('assets/css/core.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/components.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/colors.css') }}" rel="stylesheet" type="text/css">
-<<<<<<< HEAD
 	<!-- /global stylesheets by default Index  -->
 
 
-
-
-
 	<!-- Core JS files by default Index  -->
-=======
-	<!-- /global stylesheets -->
-
-	<!-- Core JS files -->
->>>>>>> 5fb77934e80929f365ba6699fae15c729173accc
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/loaders/pace.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/bootstrap.min.js') }}"></script>

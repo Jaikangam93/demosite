@@ -33,15 +33,6 @@
 								<!-- Main -->
 								<li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
 								<li class="active"><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
-
-								<li>
-									<a href="#"><i class="icon-stack2"></i> <span>System Users </span></a>
-								</li>
-
-
-
-								
-<!--
 								<li>
 									<a href="#"><i class="icon-stack2"></i> <span>Page layouts</span></a>
 									<ul>
@@ -120,8 +111,8 @@
 										<li><a href="starters/layout_fixed.html">Fixed layout</a></li>
 									</ul>
 								</li>
-								<li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog</span></a></li>
-								<li><a href="../../RTL/default/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li> -->
+								<li><a href="changelog.html"><i class="icon-list-unordered"></i> <span>Changelog <span class="label bg-blue-400">1.6</span></span></a></li>
+								<li><a href="../../RTL/default/index.html"><i class="icon-width"></i> <span>RTL version</span></a></li>
 								<!-- /main -->
 
 						
