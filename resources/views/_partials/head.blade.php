@@ -4,23 +4,33 @@
 	
 	<title>ABC School @yield('title')</title>
 
-	<!-- Global stylesheets -->
+	<!-- Global stylesheets by default index  -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
 	<link href="{{asset('assets/css/icons/icomoon/styles.css')}}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/core.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/components.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('assets/css/colors.css') }}" rel="stylesheet" type="text/css">
+<<<<<<< HEAD
+	<!-- /global stylesheets by default Index  -->
+
+
+
+
+
+	<!-- Core JS files by default Index  -->
+=======
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
+>>>>>>> 5fb77934e80929f365ba6699fae15c729173accc
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/loaders/pace.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/core/libraries/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/loaders/blockui.min.js') }}"></script>
-	<!-- /core JS files -->
+	<!-- /core JS files by default Index -->
 
-	<!-- Theme JS files -->
+	<!-- Theme JS files (By Default Index )-->
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/visualization/d3/d3.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/visualization/d3/d3_tooltip.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/plugins/forms/styling/switchery.min.js') }}"></script>
